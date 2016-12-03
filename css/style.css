@@ -56,3 +56,7 @@ body {
 	opacity: 0;
 	transition: top 300ms, opacity 300ms;
 }
+h1 
+{
+	font-family: 'Bungee', cursive;
+}
