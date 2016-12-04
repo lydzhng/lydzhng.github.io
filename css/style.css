@@ -60,3 +60,9 @@ h1
 {
 	font-family: 'Bungee', cursive;
 }
+#counter{
+	font-size: 34px;
+	position: absolute;
+	top:145px;
+        left: 0px;
+}
