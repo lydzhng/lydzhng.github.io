@@ -52,8 +52,7 @@ body {
   left:434px;
   top:300px;
 }
-#poop{
-}
+
 .redYellow {
   background: linear-gradient(#f92f80, #fffa00);
   height: 100px;
@@ -65,19 +64,18 @@ body {
   width: 100%;
 }
 .blueRed{
-    background: linear-gradient(#00ffe5, #f92f80);
+  background: linear-gradient(#00ffe5, #f92f80);
   height:100px;
   width: 100%;
 }
 #button{
-    background-color: Transparent;
-
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    position: relative;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  position: relative;
 }
 .ground-poop{
   width: 100px;
@@ -87,13 +85,12 @@ body {
   opacity: 0;
   transition: top 300ms, opacity 300ms;
 }
-h1
-{
+h1{
   font-family: 'Bungee', cursive;
 }
 #counter{
   font-size: 34px;
   position: absolute;
   top:145px;
-        left: 0px;
+  left: 0px;
 }
