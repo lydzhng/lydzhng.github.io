@@ -3,66 +3,94 @@ body, html {
   width: 100%;
 }
 
-body { 
-	 
-	 text-align: center;
+body {
+  text-align: center;
 }
 #button-container{
-	width: 100%;
-	text-align: center;
-	position: absolute;
+  width: 100%;
+  text-align: center;
+  position: absolute;
 }
 #unicorn {
-	width: 555px;
+  width: 555px;
 }
+
+#pusheen {
+  position: absolute;
+  top: 76px;
+  left: 265px;
+}
+
+#pusheen.bounce {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-delay: 0.2s;
+  -ms-animation-name: bounce;
+  -ms-animation-duration: 0.5s;
+  -ms-animation-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -ms-transform: rotate(7deg)
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+
+@-webkit-keyframes bounce {
+  0% {top:40px;}
+}
+
+@-moz-keyframes bounce {
+  0% {top:40px;}
+}
+
 .start-poop {
-	width: 100px;
-	position: absolute;
-	left:434px;
-	top:300px;
+  width: 100px;
+  position: absolute;
+  left:434px;
+  top:300px;
 }
-#poop{
-}
+
 .redYellow {
-	background: linear-gradient(#f92f80, #fffa00);
-	height: 100px;
-	width: 100%;
+  background: linear-gradient(#f92f80, #fffa00);
+  height: 100px;
+  width: 100%;
 }
 .yellowBlue{
-	background: linear-gradient(#fffa00, #00ffe5);
-	height: 100px;
-	width: 100%;
+  background: linear-gradient(#fffa00, #00ffe5);
+  height: 100px;
+  width: 100%;
 }
 .blueRed{
-    background: linear-gradient(#00ffe5, #f92f80);
-	height:100px;
-	width: 100%;
+  background: linear-gradient(#00ffe5, #f92f80);
+  height:100px;
+  width: 100%;
 }
 #button{
-    background-color: Transparent;
-
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    position: relative;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  position: relative;
 }
 .ground-poop{
-	width: 100px;
-	position: absolute;
-	left: 434px;
-	top: 380px;
-	opacity: 0;
-	transition: top 300ms, opacity 300ms;
+  width: 100px;
+  position: absolute;
+  left: 434px;
+  top: 380px;
+  opacity: 0;
+  transition: top 300ms, opacity 300ms;
 }
-h1 
-{
-	font-family: 'Bungee', cursive;
+h1{
+  font-family: 'Bungee', cursive;
 }
 #counter{
-	font-size: 34px;
-	position: absolute;
-	top:145px;
-        left: 0px;
+  font-size: 34px;
+  position: absolute;
+  top:145px;
+  left: 0px;
 }
