@@ -3,8 +3,8 @@ body, html {
   width: 100%;
 }
 
-body { 
-	 
+body {
+
 	 text-align: center;
 }
 #button-container{
@@ -15,6 +15,38 @@ body {
 #unicorn {
 	width: 555px;
 }
+
+#pusheen {
+  position: absolute;
+  top: 76px;
+  left: 265px;
+}
+
+#pusheen.bounce {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-delay: 0.2s;
+  -ms-animation-name: bounce;
+  -ms-animation-duration: 0.5s;
+  -ms-animation-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -ms-transform: rotate(7deg)
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+
+@-webkit-keyframes bounce {
+  0% {top:40px;}
+}
+
+@-moz-keyframes bounce {
+  0% {top:40px;}
+}
+
 .start-poop {
 	width: 100px;
 	position: absolute;
@@ -56,7 +88,7 @@ body {
 	opacity: 0;
 	transition: top 300ms, opacity 300ms;
 }
-h1 
+h1
 {
 	font-family: 'Bungee', cursive;
 }
