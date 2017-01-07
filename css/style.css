@@ -13,7 +13,6 @@ body {
 	position: absolute;
 }
 #unicorn {
-	width: 555px;
 }
 .start-poop {
 	width: 100px;
@@ -24,17 +23,18 @@ body {
 #poop{
 }
 .redYellow {
-	background: linear-gradient(#f92f80, #fffa00);
+	background: linear-gradient(#ffa8d7	, #fffda8);
 	height: 100px;
 	width: 100%;
 }
 .yellowBlue{
-	background: linear-gradient(#fffa00, #00ffe5);
+	background: linear-gradient(#fffda8, #b2ddff);
 	height: 100px;
 	width: 100%;
 }
 .blueRed{
-    background: linear-gradient(#00ffe5, #f92f80);
+    background: linear-gradient(#b2ddff, #ffa8d7);
+    width: 555px;
 	height:100px;
 	width: 100%;
 }
