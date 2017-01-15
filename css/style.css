@@ -13,13 +13,19 @@ body {
 	position: absolute;
 }
 
+#unicorn{
+	width: 110%;
+	left: 80px;
+	top: 100px;
+}
+
 .start-poop {
-	width: 100px;
 	position: absolute;
-	left:434px;
-	top:300px;
+	left:233px;
+	top:150px;
 }
 #poop{
+	width: 80px;
 }
 .redYellow {
 	background: linear-gradient(#ffa8d7	, #fffda8);
@@ -47,10 +53,9 @@ body {
     position: relative;
 }
 .ground-poop{
-	width: 100px;
 	position: absolute;
-	left: 434px;
-	top: 380px;
+	left: 233px;
+	top: 250px;
 	opacity: 0;
 	transition: top 300ms, opacity 300ms;
 }
