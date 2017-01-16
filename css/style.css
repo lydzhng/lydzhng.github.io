@@ -21,11 +21,11 @@ body {
 
 .start-poop {
 	position: absolute;
-	left:233px;
+	left:250px;
 	top:150px;
 }
 #poop{
-	width: 80px;
+	width: 100px;
 }
 .redYellow {
 	background: linear-gradient(#ffa8d7	, #fffda8);
@@ -51,6 +51,7 @@ body {
     overflow: hidden;
     outline:none;
     position: relative;
+    width: 430px;
 }
 .ground-poop{
 	position: absolute;
@@ -61,7 +62,8 @@ body {
 }
 h1 
 {
-	font-family: 'Bungee', cursive;
+	font-family: 'VT323', cursive;
+	font-size: 50px;
 }
 #counter{
 	font-size: 34px;
@@ -69,3 +71,4 @@ h1
 	top:145px;
         left: 0px;
 }
+/**gradient,counter,font,poops(ground+start),button,unicorn**/
