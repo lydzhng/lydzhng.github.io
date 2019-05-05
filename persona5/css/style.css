@@ -8,5 +8,8 @@ h1 {
 
 }
 P {
-	text-align: center;
+	text-align: left;
+}
+img {
+	text-align: right;
 }
