@@ -10,6 +10,14 @@ h1 {
 P {
 	text-align: left;
 }
-img {
-	text-align: right;
+#arsene-pic {
+	float: right;
+	height:244px; 
+	width: 253px;
+}
+
+#joker-pic{
+	float:right;
+	width:129px;
+	height:302px;
 }
