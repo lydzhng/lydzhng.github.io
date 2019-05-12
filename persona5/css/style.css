@@ -9,6 +9,8 @@ h1 {
 }
 #plot {
 	text-align: left;
+width: 50%;
+
 
 }
 P {
@@ -29,7 +31,7 @@ P {
 
 #phantom-thieves{
 	float: right;
-	width:225px;
-	height:230px;
+	width:33%;
+
 
 }
